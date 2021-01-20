@@ -1,3 +1,6 @@
+## This project i build with ReactJS, Redux Toolkit, Material UI, React-flip-move Module and firebase for backend DB, authentication and build with firebase
+## IF YOU WANT TO TEST IT OUT FOLLOW THIS LINK : https://linkedin-clone-b4a30.web.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts

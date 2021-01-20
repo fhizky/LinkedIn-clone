@@ -1,0 +1,190 @@
+.login {
+	/* display: grid;
+	place-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+    padding-bottom: 100px; */
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background-color: white;
+}
+
+.login > img {
+	object-fit: contain;
+	height: 70px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.login > form {
+	display: flex;
+	flex-direction: column;
+}
+
+.login > form > input {
+	width: 350px;
+	height: 50px;
+	font-size: 20px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.login > form > button {
+	width: 365px;
+	height: 50px;
+	font-size: large;
+	color: #fff;
+	background-color: #0074b1;
+	border-radius: 5px;
+}
+
+.login__register {
+	color: #0074b1;
+	cursor: pointer;
+}
+
+.login__register:hover {
+	border-bottom: 0.5px solid #0074b1;
+}
+
+.login > p {
+	margin-top: 20px;
+}
+
+/* Design Baru */
+
+.login__link {
+	text-decoration: none;
+}
+
+.login__navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0;
+}
+
+.login__navigation > img {
+	object-fit: contain;
+	height: 30px;
+	margin-left: 100px;
+	cursor: pointer;
+}
+
+.login__navigationMenu {
+	display: flex;
+	margin-right: 100px;
+	justify-content: space-between;
+}
+
+.login__joinNow {
+	margin-right: 40px;
+	color: rgb(106, 106, 106);
+	padding: 10px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.login__navigationMenu > button {
+	border-radius: 20px;
+	border: 1.7px solid #0074b1;
+	padding: 10px 25px;
+	font-weight: 600;
+	font-size: 16px;
+	color: #0074b1;
+	cursor: pointer;
+	background-color: white;
+}
+
+.login__navigationMenu > button:hover {
+	border-radius: 2px solid #0074b1;
+	color: white;
+	background-color: #23aaf3;
+	transition: 250ms ease-in-out;
+}
+
+.login__joinNow:hover {
+	background-color: rgb(213, 210, 210);
+	color: rgb(44, 44, 44);
+	border-radius: 5px;
+	transition: 250ms ease-in-out;
+}
+
+.login__body {
+	display: flex;
+	margin-top: 50px;
+	padding-left: 100px;
+}
+
+.login__bodyLeft {
+	flex: 1;
+}
+
+.login__title {
+	font-size: 28px;
+	overflow: visible;
+	width: 100%;
+	color: #0074b1;
+}
+
+.login__form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+}
+
+.login__form > input {
+	padding: 17px;
+	width: 65%;
+	margin-top: 10px;
+	border-radius: 3px;
+	border: 1px solid;
+	font-size: 16px;
+	outline: none;
+}
+
+.login__forgotPassword {
+	margin-top: 15px;
+	color: gray;
+	cursor: pointer;
+	text-decoration: none;
+	width: fit-content;
+}
+
+.login__forgotPassword:hover {
+	color: #0074b1;
+}
+
+.login__formButton {
+	width: 70%;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	background-color: #0074b1;
+	font-size: 18px;
+	border-radius: 30px;
+	margin-top: 15px;
+	color: white;
+	font-weight: 400;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+.login__formButton:hover {
+	background-color: #024d76;
+	transition: 200ms ease-in-out;
+}
+
+.login__bodyRight > img {
+	object-fit: contain;
+	border-radius: 50%;
+	height: 600px;
+}
+
+.login__error {
+	padding-top: 5px;
+	color: rgb(201, 39, 39);
+}
